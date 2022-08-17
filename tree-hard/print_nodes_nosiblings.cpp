@@ -130,13 +130,7 @@ void solve(vector<int> &ans,Node* root)
 vector<int> noSibling(Node* root)
 {
     vector<int > ans;
-    bool temp=false;
-    
-    if(root->left==NULL && root->right!=NULL)
-    temp=true;
-    
-    else if(root->right==NULL && root->left!=NULL) 
-    temp=true;
+
     
     solve(ans,root);
     
