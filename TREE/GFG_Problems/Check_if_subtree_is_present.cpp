@@ -20,3 +20,6 @@
         
         
     }
+
+//There is a optimised tecgnique in o(n) time and and O(n) space
+//just find out inorder and preorder of given tree and subtree if they have have same substring present then subtree is present
